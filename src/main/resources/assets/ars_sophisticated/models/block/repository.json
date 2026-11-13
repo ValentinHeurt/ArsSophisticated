@@ -1,0 +1,23 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "ars_nouveau:block/repository",
+    "repository": "ars_nouveau:block/repository"
+  },
+  "elements": [
+    {"from":[0,0,0],"to":[16,2,16],"faces":{"north":{"texture":"#repository","uv":[12,0,16,0.5],"cullface":"north"},"east":{"texture":"#repository","uv":[12,0.5,16,1],"cullface":"east"},"south":{"texture":"#repository","uv":[12,1,16,1.5],"cullface":"south"},"west":{"texture":"#repository","uv":[12,1.5,16,2],"cullface":"west"},"up":{"texture":"#repository","uv":[0,4,4,8]},"down":{"texture":"#repository","uv":[0,4,4,8],"cullface":"down"}}},
+    {"from":[3,7,0],"to":[13,8,16],"faces":{"north":{"texture":"#repository","uv":[12.75,2,15.25,2.25],"cullface":"north"},"south":{"texture":"#repository","uv":[12.75,2.5,15.25,2.75],"cullface":"south"},"up":{"texture":"#repository","uv":[4.75,8,7.25,12]},"down":{"texture":"#repository","uv":[0.75,4,3.25,8]}}},
+    {"from":[0,7,3],"to":[3,8,13],"faces":{"west":{"texture":"#repository","uv":[12.75,2.75,15.25,3],"cullface":"west"},"up":{"texture":"#repository","uv":[4,8.75,4.75,11.25]},"down":{"texture":"#repository","uv":[0,4.75,0.75,7.25]}}},
+    {"from":[13,7,3],"to":[16,8,13],"faces":{"east":{"texture":"#repository","uv":[12.75,2.25,15.25,2.5],"cullface":"east"},"up":{"texture":"#repository","uv":[7.25,8.75,8,11.25]},"down":{"texture":"#repository","uv":[3.25,4.75,4,7.25]}}},
+    {"from":[0,13,0],"to":[16,16,16],"faces":{"north":{"texture":"#repository","uv":[4,10.75,8,11.5],"cullface":"north"},"east":{"texture":"#repository","uv":[4,11.5,8,12.25],"cullface":"east"},"south":{"texture":"#repository","uv":[11.5,6.5,15.5,7.25],"cullface":"south"},"west":{"texture":"#repository","uv":[11.5,7.25,15.5,8],"cullface":"west"},"up":{"texture":"#repository","uv":[0,8,4,12],"cullface":"up"},"down":{"texture":"#repository","uv":[0,4,4,8]}}},
+    {"from":[3,2,3],"to":[13,13,13],"faces":{"north":{"texture":"#repository","uv":[4,8,6.5,10.75]},"east":{"texture":"#repository","uv":[4,8,6.5,10.75]},"south":{"texture":"#repository","uv":[4,8,6.5,10.75]},"west":{"texture":"#repository","uv":[4,8,6.5,10.75]}}},
+    {"from":[0,2,0],"to":[3,13,3],"faces":{"north":{"texture":"#repository","uv":[8,10.75,8.75,13.5],"cullface":"north"},"west":{"texture":"#repository","uv":[0,12,0.75,14.75],"cullface":"west"},"east":{"texture":"#repository","uv":[11.5,8,12.25,10.75]},"south":{"texture":"#repository","uv":[11.5,10.75,12.25,13.5]}}},
+    {"from":[-0.025,14,-0.025],"to":[3,16.025,3],"faces":{"up":{"texture":"#metal","uv":[3,3,13,13],"cullface":"up"},"north":{"texture":"#metal","uv":[3,3,13,13],"cullface":"north"},"west":{"texture":"#metal","uv":[3,3,13,13],"cullface":"west"}}},
+    {"from":[13,2,0],"to":[16,13,3],"faces":{"east":{"texture":"#repository","uv":[8,10.75,8.75,13.5],"cullface":"east"},"north":{"texture":"#repository","uv":[0,12,0.75,14.75],"cullface":"north"},"south":{"texture":"#repository","uv":[11.5,8,12.25,10.75]},"west":{"texture":"#repository","uv":[11.5,10.75,12.25,13.5]}}},
+    {"from":[13,14,-0.025],"to":[16.025,16.025,3],"faces":{"up":{"texture":"#metal","uv":[3,3,13,13],"cullface":"up"},"east":{"texture":"#metal","uv":[3,3,13,13],"cullface":"east"},"north":{"texture":"#metal","uv":[3,3,13,13],"cullface":"north"}}},
+    {"from":[13,2,13],"to":[16,13,16],"faces":{"south":{"texture":"#repository","uv":[8,10.75,8.75,13.5],"cullface":"south"},"east":{"texture":"#repository","uv":[0,12,0.75,14.75],"cullface":"east"},"west":{"texture":"#repository","uv":[11.5,8,12.25,10.75]},"north":{"texture":"#repository","uv":[11.5,10.75,12.25,13.5]}}},
+    {"from":[13,14,13],"to":[16.025,16.025,16.025],"faces":{"up":{"texture":"#metal","uv":[3,3,13,13],"cullface":"up"},"south":{"texture":"#metal","uv":[3,3,13,13],"cullface":"south"},"east":{"texture":"#metal","uv":[3,3,13,13],"cullface":"east"}}},
+    {"from":[0,2,13],"to":[3,13,16],"faces":{"west":{"texture":"#repository","uv":[8,10.75,8.75,13.5],"cullface":"west"},"south":{"texture":"#repository","uv":[0,12,0.75,14.75],"cullface":"south"},"north":{"texture":"#repository","uv":[11.5,8,12.25,10.75]},"east":{"texture":"#repository","uv":[11.5,10.75,12.25,13.5]}}},
+    {"from":[-0.02499999999999858,14,13],"to":[3,16.025,16.025],"faces":{"up":{"texture":"#metal","uv":[3,3,13,13],"cullface":"up"},"west":{"texture":"#metal","uv":[3,3,13,13],"cullface":"west"},"south":{"texture":"#metal","uv":[3,3,13,13],"cullface":"south"}}}
+  ]
+}

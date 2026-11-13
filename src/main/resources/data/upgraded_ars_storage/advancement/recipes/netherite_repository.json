@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_repository": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_sophisticated:diamond_repository"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "upgraded_ars_storage:netherite_repository"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_repository",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "upgraded_ars_storage:netherite_repository"
+    ]
+  }
+}

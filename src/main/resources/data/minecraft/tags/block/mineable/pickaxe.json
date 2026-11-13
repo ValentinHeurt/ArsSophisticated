@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ars_sophisticated:copper_repository",
+    "ars_sophisticated:iron_repository",
+    "ars_sophisticated:gold_repository",
+    "ars_sophisticated:diamond_repository",
+    "ars_sophisticated:netherite_repository"
+  ]
+}

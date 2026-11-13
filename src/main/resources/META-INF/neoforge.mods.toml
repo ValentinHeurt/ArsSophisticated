@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="ars_sophisticated"
+version="${file.jarVersion}"
+displayName="Ars Sophisticated"
+description="Adds copper, iron, gold, diamond and netherite repositories with Sophisticated Storage upgrades to Ars Nouveau."
+
+[[mixins]]
+config="ars_sophisticated.mixins.json"
+
+[[dependencies.ars_sophisticated]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ars_sophisticated]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.229,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ars_sophisticated]]
+modId="ars_nouveau"
+type="required"
+versionRange="[5.13.4,6)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.ars_sophisticated]]
+modId="sophisticatedstorage"
+type="required"
+versionRange="[1.6.16,2)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.ars_sophisticated]]
+modId="sophisticatedcore"
+type="required"
+versionRange="[1.5.31,2)"
+ordering="AFTER"
+side="BOTH"

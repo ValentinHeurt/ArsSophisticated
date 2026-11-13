@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MRM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "ars_sophisticated:copper_repository"
+    }
+  },
+  "result": {
+    "id": "ars_sophisticated:iron_repository",
+    "count": 1
+  }
+}

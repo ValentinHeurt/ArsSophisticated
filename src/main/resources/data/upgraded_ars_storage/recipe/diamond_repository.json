@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "MMM",
+    "MRM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diamond"
+    },
+    "R": {
+      "item": "ars_sophisticated:gold_repository"
+    }
+  },
+  "result": {
+    "id": "ars_sophisticated:diamond_repository",
+    "count": 1
+  }
+}

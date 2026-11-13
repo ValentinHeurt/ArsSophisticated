@@ -1,0 +1,15 @@
+{
+  "multipart": [
+    {"apply":{"model":"ars_sophisticated:block/netherite_repository"}},
+    {"when":{"books":"1|2|3|4|5|6|7|8|9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_1"}},
+    {"when":{"books":"2|3|4|5|6|7|8|9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_2"}},
+    {"when":{"books":"3|4|5|6|7|8|9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_3"}},
+    {"when":{"books":"4|5|6|7|8|9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_4"}},
+    {"when":{"books":"5|6|7|8|9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_5"}},
+    {"when":{"books":"6|7|8|9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_6"}},
+    {"when":{"books":"7|8|9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_7"}},
+    {"when":{"books":"8|9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_8"}},
+    {"when":{"books":"9|10"},"apply":{"model":"ars_sophisticated:block/repository_books_9"}},
+    {"when":{"books":"10"},"apply":{"model":"ars_sophisticated:block/repository_books_10"}}
+  ]
+}

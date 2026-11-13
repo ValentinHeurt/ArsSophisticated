@@ -1,0 +1,11 @@
+{
+  "textures": {
+    "repository": "ars_nouveau:block/repository"
+  },
+  "elements": [
+    {"from":[11,8,0.5],"to":[13,13,3],"faces":{"north":{"texture":"#repository","uv":[9.25,13.25,9.75,14.5]},"east":{"texture":"#repository","uv":[12.25,9.25,13,10.5]},"west":{"texture":"#repository","uv":[12.25,9.25,13,10.5]},"up":{"texture":"#repository","uv":[11.75,13.5,12.25,14.25]}}},
+    {"from":[13,8,11],"to":[15.5,13,13],"faces":{"east":{"texture":"#repository","uv":[3.25,13.25,3.75,14.5]},"south":{"texture":"#repository","uv":[6.75,12.25,7.5,13.5]},"north":{"texture":"#repository","uv":[6.75,12.25,7.5,13.5]},"up":{"texture":"#repository","uv":[11.25,13.5,11.75,14.25]}}},
+    {"from":[3,8,13],"to":[5,13,15.5],"faces":{"south":{"texture":"#repository","uv":[11,12,11.5,13.25]},"west":{"texture":"#repository","uv":[8,6.75,8.75,8]},"east":{"texture":"#repository","uv":[8,6.75,8.75,8]},"up":{"texture":"#repository","uv":[4.25,13.5,4.75,14.25]}}},
+    {"from":[0.5,8,3],"to":[3,13,5],"faces":{"west":{"texture":"#repository","uv":[13,11.75,13.5,13]},"north":{"texture":"#repository","uv":[3,12,3.75,13.25]},"south":{"texture":"#repository","uv":[3,12,3.75,13.25]},"up":{"texture":"#repository","uv":[6.25,13.5,6.75,14.25]}}}
+  ]
+}

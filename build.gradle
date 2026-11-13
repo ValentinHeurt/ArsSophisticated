@@ -1,0 +1,63 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.126'
+}
+
+group = 'fr.upgradedarsstorage'
+version = mod_version
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+sourceSets {
+    gameTest {
+        compileClasspath += main.output
+        runtimeClasspath += main.output
+    }
+}
+
+configurations {
+    gameTestImplementation.extendsFrom implementation
+    gameTestRuntimeOnly.extendsFrom runtimeOnly
+}
+
+repositories {
+    exclusiveContent {
+        forRepository { maven { url = 'https://api.modrinth.com/maven' } }
+        filter { includeGroup 'maven.modrinth' }
+    }
+}
+
+dependencies {
+    implementation 'maven.modrinth:ars-nouveau:CHw9k5Va'             // 5.13.4
+    implementation 'maven.modrinth:sophisticated-storage:hC4LaBhJ'  // 1.6.16.2222
+    implementation 'maven.modrinth:sophisticated-core:jo2tOOfF'     // 1.5.31.2460
+    implementation 'maven.modrinth:geckolib:Grwn5rUB'                // 4.9.3
+    runtimeOnly 'maven.modrinth:curios:yohfFbgD'                     // 9.5.1
+    runtimeOnly 'maven.modrinth:jei:iv3KiVkE'                        // 19.64.0.455
+}
+
+neoForge {
+    version = neo_version
+    addModdingDependenciesTo sourceSets.gameTest
+
+    runs {
+        client { client() }
+        server { server() }
+        gameTestServer {
+            type = 'gameTestServer'
+            gameDirectory = project.file('run/gametest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'ars_sophisticated'
+        }
+    }
+
+    mods {
+        ars_sophisticated {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.gameTest
+        }
+    }
+}
+
+tasks.named('jar') {
+    manifest.attributes('Implementation-Version': project.version)
+}

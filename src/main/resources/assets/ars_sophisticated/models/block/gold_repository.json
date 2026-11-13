@@ -1,0 +1,6 @@
+{
+  "parent": "ars_sophisticated:block/repository",
+  "textures": {
+    "metal": "minecraft:block/gold_block"
+  }
+}
