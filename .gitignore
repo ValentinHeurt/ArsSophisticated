@@ -5,9 +5,6 @@ build/
 run/
 .idea/
 *.iml
-/.agents/
-/.codex/
-/.aws/
 /art/
 /tmp/
 /*.png
