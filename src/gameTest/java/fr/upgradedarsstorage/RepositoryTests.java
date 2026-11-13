@@ -47,7 +47,7 @@ import java.util.List;
 
 @GameTestHolder(ArsSophisticated.MOD_ID)
 @PrefixGameTestTemplate(false)
-public final class IronRepositoryTests {
+public final class RepositoryTests {
     private static final String RECIPE_NAMESPACE = "upgraded_ars_storage";
     private static final BlockPos CATALOG = new BlockPos(1, 1, 1);
     private static final BlockPos IRON = CATALOG.east();
